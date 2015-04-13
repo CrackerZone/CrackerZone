@@ -1,0 +1,86 @@
+/*GROW*/
+.grow img {
+  height: 150px;
+  width: 150px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 200px;
+  height: 200px;
+}
+/*SHRINK*/
+.shrink img {
+  height: 150px;
+  width: 150px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.shrink img:hover {
+  width: 100px;
+  height: 100px;
+}
+/*FOCUS*/
+.focus {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.focus:hover {
+  border: 70px solid #000;
+  border-radius: 50%;
+}
+
+/*MORPH*/
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.ex1{  float: left;  -webkit-transition: margin 0.2s ease-out; -moz-transition: margin 0.2s ease-out; -o-transition: margin 0.2s ease-out; } 
+.ex1:hover { margin-top: 10px; }
+
+
+
+
+/*TILT*/
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(720deg);
+     -moz-transform: rotate(720deg);
+       -o-transform: rotate(720deg);
+      -ms-transform: rotate(720deg);
+          transform: rotate(720deg);
+}
+.ex2 { width: 300px; margin: 0 auto; }.ex2{ height: 100px; width: 300px; margin: 15px 0; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; } .ex2:hover { height: 133px; width: 400px; margin-left: -50px; } 
